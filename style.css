@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+h1,h2{
+  font-family: 'Shadows Into Light', cursive;
+  color: #8051ec;
+  font-weight: bold !important;
+}
+
+h2{
+  text-align: center;
+}
+
+a.botao{
+  position: fixed;
+  background: #6345A8;
+  bottom:50px;
+  right:28px;
+  padding: 15px 20px;
+  border-radius: 100px;
+  border: white solid 1px;
+}
+
+
+.navbar{
+  background-color: #6345A8;
+}
+
+.diamond{
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  left: 0px;
+  background: radial-gradient(50% 50% at 50% 50%, #B094C7 0%, rgba(196, 196, 196, 0) 100%);
+}
+.redondo{
+  border-radius: 5px; 
+}
+
+p.legenda{
+  color: black;
+  font-size: 14px;
+  text-indent: 0;
+  text-align: center
+}
+
+footer{
+  background: linear-gradient(
+180deg, rgba(99, 69, 168, 0) 0%, #6345A8 23.44%);
+}
+
+.branco{
+  color:white;
+  text-indent: 0rem ;
+  text-align: center;
+}
+
+i.icon-footer{
+  font-size: 25px;
+}
+
+.branco:hover{
+  color:white;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+  text-indent: 1.5em;
+  color: #302F2F;
+}
+
+#toggle-1 {
+   display:none;
+}
+
+label {  
+  text-align:center!important;
+  -webkit-appearance: push-button;
+  -moz-appearance: button; 
+  cursor: pointer;
+  padding: 5px;
+  color:#8051EC;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+label.label2 {  
+  text-align:center!important;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  cursor: none;
+  padding: 0px;
+  color:#8051EC;
+  font-size: 18px;
+  font-weight:normal;
+  margin-top:10px;
+  margin-bottom:0px;
+}
+
+/* CSS padrão da div */
+#mostra {
+   display:none;
+}
+
+/* CSS quando o checkbox está marcado */
+#toggle-1:checked ~ #mostra {
+   display:block;
+}
+
+.card1 {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    background-image: url("img/Monica.png");
+}
+
+.card2 {
+    height: 400;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    background-image: url("img/Ross.png");
+}
+
+.card3 {
+    height: 400;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    background-image: url("img/Rachel.png");
+}
+
+.card4 {
+    height: 400;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    background-image: url("img/Joey.png");
+}
+
+.card5 {
+    height: 400;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    background-image: url("img/Phoebe.png");
+}
+
+.card6 {
+    height: 400;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    background-image: url("img/Chandler.png");
+}
+
+.item:hover {
+    cursor: pointer;
+    transform: rotate(0deg) scale(1);
+    transition: .5s all ease;
+    z-index: 400;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+
+
+#monica:checked~.container>.card1 {
+    transform: rotateY(180deg) scaleX(-1);
+    background-image: url("img/Monica1.png");
+}
+
+#ross:checked~.container>.card2 {
+    transform: rotateY(180deg) scaleX(-1);
+    background-image: url("img/Ross1.jpg");
+}
+
+#rachel:checked~.container>.card3 {
+    transform: rotateY(180deg) scaleX(-1);
+    background-image: url("img/Rachel1.jpg");
+}
+
+#joey:checked~.container>.card4 {
+    transform: rotateY(180deg) scaleX(-1);
+    background-image: url("img/Joey1.jpg");
+}
+
+#phoebe:checked~.container>.card5 {
+    transform: rotateY(180deg) scaleX(-1);
+    background-image: url("img/Phoebe1.jpg");
+}
+
+#chandler:checked~.container>.card6 {
+    transform: rotateY(180deg) scaleX(-1);
+    background-image: url("img/Chandler1.jpg");
+}
+
+
+label.estilo {
+    display: block;
+    height: 400px;
+}
+
+input {
+    display: none;
+}
